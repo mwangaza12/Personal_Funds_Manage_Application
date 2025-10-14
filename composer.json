@@ -1,0 +1,17 @@
+{
+    "name": "hp/personal_funds_manage_application",
+    "autoload": {
+        "psr-4": {
+            "Hp\\PersonalFundsManageApplication\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mwangaza12",
+            "email": "josephmwangaza1@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
