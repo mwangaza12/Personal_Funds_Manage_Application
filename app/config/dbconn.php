@@ -1,5 +1,6 @@
 <?php
-$dbFile = __DIR__ . '/database/finance.db';
+$dbFile = __DIR__ . '/../../database/finance.db';
+echo $dbFile;
 
 try {
     $conn = new PDO("sqlite:$dbFile");
