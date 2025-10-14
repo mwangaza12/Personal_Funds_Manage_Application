@@ -10,7 +10,6 @@ class AuthController {
     }
 
     public function login() {
-        session_start();
         $error = '';
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -58,7 +57,6 @@ class AuthController {
     }
 
     public function logout() {
-        session_start();
         session_destroy();
         header("Location: /login");
         exit();
