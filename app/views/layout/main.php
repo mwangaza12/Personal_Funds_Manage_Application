@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <?php include __DIR__ . '/layout/partials/sidebar.php'; ?>
+    <?php include __DIR__ . '/partials/sidebar.php'; ?>
 
     <main class="content">
         <?= $content ?? '' ?>
